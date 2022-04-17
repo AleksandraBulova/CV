@@ -5,20 +5,20 @@
 - **Location:**  Minsk, Belarus
 - **Phone:** +375297685902
 - **E-mail:** aliksandra.ihnatsenia@gmail.com
-- **GitHub:** [AleksandraBulova](https://github.com/AleksandraBulova)
+- **GitHub:** [AleksandraBulova](https://github.com/AleksandraBulova)  
 ***
 
 ## Briefly About Myself
 
 I am young, ambitious, used to go to my goal. I can and like to work in a team. Now I want to spend all my strength and energy on training and developing my professional qualities, for this I am ready to work hard, study and improve myself. I am sociable, easy to train, hardworking, accurate, diligent, attentive to details.  
-I am easy-going and like to spend my free time participating in various quests and solving logic problems. I like to travel very much, and at the same time I prefer to get to know the country “from the inside” in order to feel its flavor and local features, including national cuisine.
+I am easy-going and like to spend my free time participating in various quests and solving logic problems. I like to travel very much, and at the same time I prefer to get to know the country “from the inside” in order to feel its flavor and local features, including national cuisine.  
 ***
 
 ## Skills
 
 - *HTML5, CSS3* 
 - *JavaScript Basics*
-- *Figma*
+- *Figma*  
 ***
 
 ## Code example
@@ -46,12 +46,12 @@ I started learning *HTML*, *CSS* and *JS* on my own. Here is an example of sever
 * [**Portfolio**](https://aleksandrabulova.github.io/Portfolio)
 * [**Singolo**](https://aleksandrabulova.github.io/singolo)
 * [**ToDoList**](https://aleksandrabulova.github.io/ToDoList)
-* [**Pizza**](https://aleksandrabulova.github.io/Pizza)
+* [**Pizza**](https://aleksandrabulova.github.io/Pizza)  
 ***
 
 ## Education
 
-* 2014-2018: Belarusian State University. Faculty of Mechanics and Mathematics.
+* 2014-2018: Belarusian State University. Faculty of Mechanics and Mathematics.  
 ***
 
 ## Languages
