@@ -4,10 +4,112 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style/style.css">
   <title>CV</title>
 </head>
 <body>
-  
+  <div class="wrapper">
+    <header>
+      <div class="navigation">
+        <img src="./image/rs_school_js.svg" alt="rs_school_logo">
+        <nav>
+          <ul>
+            <li><a href="#сontact">Contact</a></li>
+            <li><a href="#about_me">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="nameUser">
+        <h1>Aleksandra Bulova</h1>
+        <img src="./image/photo_me.jpg" alt="photo_Aleksandra">
+      </div>
+      <div class="сontact" id="сontact">
+        <h2>Contact information</h2>
+        <ul>
+          <li>Location: Minsk, Belarus</li>
+          <li>Phone: +375297685902</li>
+          <li>E-mail: aliksandra.ihnatsenia@gmail.com</li>
+          <li>GitHub: <a href="https://github.com/AleksandraBulova">AleksandraBulova</a></li>
+        </ul>
+      </div>
+      <div class="about_me" id="about_me">
+        <h2>Briefly About Myself</h2>
+        <p>I am young, ambitious, used to go to my goal. I can and like to work in a team. 
+          Now I want to spend all my strength and energy on training and developing my professional qualities, 
+          for this I am ready to work hard, study and improve myself. I am sociable, easy to train, hardworking, accurate, diligent, 
+          attentive to details.
+        </p>
+        <p>
+          I am easy-going and like to spend my free time participating in various quests and solving logic problems. 
+          I like to travel very much, and at the same time I prefer to get to know the country “from the inside” 
+          in order to feel its flavor and local features, including national cuisine.  
+        </p>
+      </div>
+      <div class="skills" id="skills"> 
+        <h2>Skills</h2>
+        <ul>
+          <li>LHTML5, CSS3</li>
+          <li>JavaScript Basics</li>
+          <li>Figma</li>
+        </ul>
+      </div>
+      <div class="code_example" id="code">
+        <h2>Code example</h2>
+        <p>
+          Task CODEWARS: Given an array of integers, Find the minimum sum which is obtained from summing each Two integers product. 
+          (Notes: Array/list will contain positives only. Array/list will always has even size.)
+        </p>
+        <pre><code>
+          `function minSum(arr) {
+            const copyArr = [...arr].sort((a, b) => (a - b));
+            let res = 0;
+            for (let i = 0; i < copyArr.length / 2; i++){
+              res += copyArr[i] * copyArr[copyArr.length - i - 1];
+            }
+          
+            return res;
+          }
+          
+          minSum({12,6,10,26,3,24})
+        </code></pre>
+      </div>
+      <div class="experience" id="experience">
+        <h2>Experience</h2>
+        <p>I started learning *HTML*, *CSS* and *JS* on my own. Here is an example of several projects that I implemented during my training: </p>
+        <ul>
+          <li><a href="https://aleksandrabulova.github.io/Portfolio">Portfolio</a></li>
+          <li><a href="https://aleksandrabulova.github.io/singolo">Singolo</a></li>
+          <li><a href="https://aleksandrabulova.github.io/ToDoList">ToDoList</a></li>
+          <li><a href="https://aleksandrabulova.github.io/Pizza">Pizza</a></li>
+        </ul>
+      </div>
+      <div class="education" id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>2014-2018: Belarusian State University. Faculty of Mechanics and Mathematics.</li>
+        </ul>
+      </div>
+      <div class="languages" id="languages">
+        <h2>Languages</h2>
+        <ul>
+          <li>English: *Pre-intermediate(A2-)</li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <div class="information">
+        <a href="https://rs.school/js/"><img src="./image/rs_school_js.svg" alt="rs_school_js"></a>
+        <p>2022</p>
+        <a href="https://github.com/AleksandraBulova"><img src="./image/GitHub_Logo.png" alt="GitHub_Logo"></a>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
