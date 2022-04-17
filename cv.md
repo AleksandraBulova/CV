@@ -1,5 +1,4 @@
 # Aleksandra Bulova
-***
 
 ## Contact information
 
