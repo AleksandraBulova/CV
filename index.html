@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/normalize.css">
   <title>CV</title>
 </head>
 <body>
@@ -26,18 +27,20 @@
       </div>
     </header>
     <main>
-      <div class="nameUser">
-        <h1>Aleksandra Bulova</h1>
-        <img src="./image/photo_me.jpg" alt="photo_Aleksandra">
-      </div>
-      <div class="сontact" id="сontact">
-        <h2>Contact information</h2>
-        <ul>
-          <li>Location: Minsk, Belarus</li>
-          <li>Phone: +375297685902</li>
-          <li>E-mail: aliksandra.ihnatsenia@gmail.com</li>
-          <li>GitHub: <a href="https://github.com/AleksandraBulova">AleksandraBulova</a></li>
-        </ul>
+      <div class="information_me">
+        <div class="nameUser">
+          <h1>Aleksandra Bulova</h1>
+          <img src="./image/photo_me.jpg" alt="photo_Aleksandra">
+        </div>
+        <div class="сontact" id="сontact">
+          <h2>Contact information</h2>
+          <ul>
+            <li>Location: Minsk, Belarus</li>
+            <li>Phone: +375297685902</li>
+            <li>E-mail: aliksandra.ihnatsenia@gmail.com</li>
+            <li>GitHub: <a href="https://github.com/AleksandraBulova">AleksandraBulova</a></li>
+          </ul>
+        </div>
       </div>
       <div class="about_me" id="about_me">
         <h2>Briefly About Myself</h2>
@@ -67,7 +70,7 @@
           (Notes: Array/list will contain positives only. Array/list will always has even size.)
         </p>
         <pre><code>
-          `function minSum(arr) {
+          function minSum(arr) {
             const copyArr = [...arr].sort((a, b) => (a - b));
             let res = 0;
             for (let i = 0; i < copyArr.length / 2; i++){
